@@ -149,7 +149,7 @@ const IPLScorePredictor = () => {
       <header className="p-4 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
         <div className="flex items-center">
           <TrendingUp className="mr-2" size={24} />
-          <h1 className="text-xl font-bold">IPL Score Predictor AI</h1>
+          <h1 className="text-xl font-bold">IPL Score Predictor</h1>
         </div>
         <button
           onClick={toggleDarkMode}
