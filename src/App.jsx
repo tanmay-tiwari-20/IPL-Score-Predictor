@@ -73,7 +73,7 @@ const venues = [
 ];
 
 const IPLScorePredictor = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [battingTeam, setBattingTeam] = useState(sampleMatchData.battingTeam);
   const [bowlingTeam, setBowlingTeam] = useState(sampleMatchData.bowlingTeam);
   const [venue, setVenue] = useState(sampleMatchData.venue);
