@@ -413,21 +413,6 @@ const IPLScorePredictor = () => {
           <div className={`p-4 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-md`}>
             <h3 className="font-semibold mb-4">Team Form Analysis</h3>
             <div className="p-4">
-              <div className="flex items-center mb-4">
-                <div className="w-16 font-medium">Form:</div>
-                <div className="flex space-x-2">
-                  {sampleMatchData.teamForm.split('').map((result, index) => (
-                    <div 
-                      key={index} 
-                      className={`w-8 h-8 rounded-full flex items-center justify-center font-bold ${
-                        result === 'W' ? 'bg-green-500 text-white' : 'bg-red-500 text-white'
-                      }`}
-                    >
-                      {result}
-                    </div>
-                  ))}
-                </div>
-              </div>
               
               <div className="flex items-center mb-4">
                 <div className="w-16 font-medium">Venue:</div>
